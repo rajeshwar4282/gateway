@@ -53,6 +53,7 @@ submitBtn.addEventListener('click', function()
                     displayname:displayname1
                 }).then(function ()
                 {
+                       window.location = "Cardpay://"; 
                     console.log("Thanks for Contacting US , We will Resolve the Query ASAP");
             
                 })
